@@ -4,8 +4,8 @@
 }
 .container {
   position: relative;
-  width: 420px;
-  height: 700px;
+  width: 100vw;
+  height: 100vw;
   margin: 100px auto 0;
 }
 .message {
