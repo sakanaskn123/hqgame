@@ -141,7 +141,7 @@ class BubbeGame {
     const radius = level * 10 + 20;
     
     // レベルに対応する画像ファイルを設定
-    const texture = `./characters/bubble${level}.png`;
+    const texture = `bubble${level}.png`;
     const scale = (radius * 2) / 100; // スケールをバブルの大きさに合わせて調整（画像の元サイズを100pxと仮定）
 
     
@@ -197,13 +197,13 @@ class BubbeGame {
     const p = document.createElement("p");
     p.classList.add("mainText");
     const img1 = document.createElement("img");
-    img1.setAttribute("src", "./titleImage/title.png");
+    img1.setAttribute("src", "title.png");
     p.appendChild(img1);
     
     const p2 = document.createElement("p");
     p2.classList.add("subText");
     const img2 = document.createElement("img");
-    img2.setAttribute("src", "./titleImage/recture.png");
+    img2.setAttribute("src", "recture.png");
     p2.appendChild(img2);
     
     
@@ -280,7 +280,7 @@ class BubbeGame {
         const newRadius = newLevel * 10 + 20;
         
         // 新しいバブルに対応する画像ファイルを設定
-        const newTexture = `./characters/bubble${newLevel}.png`;
+        const newTexture = `bubble${newLevel}.png`;
         const newScale = (newRadius * 2) / 100; // スケールをバブルの大きさに合わせて調整（画像の元サイズを100pxと仮定）
 
         
