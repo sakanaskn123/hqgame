@@ -141,7 +141,7 @@ class BubbeGame {
     const radius = level * 10 + 20;
     
     // レベルに対応する画像ファイルを設定
-    const texture = `./characters/bubble${level}.png`;
+    const texture = `bubble${level}.png`;
     const scale = (radius * 2) / 100; // スケールをバブルの大きさに合わせて調整（画像の元サイズを100pxと仮定）
 
     
